@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+header{
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+li,a,button{
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.nav_links {
+    list-style: none;
+
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
