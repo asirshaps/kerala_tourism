@@ -8,4 +8,6 @@
     text-align: left;
  }
  
- 
+ body{
+    background-size: cover;
+}

@@ -21,27 +21,33 @@
          
         
       </nav>
-    <form action="#" class="signin">
+     <form action="Aboutus.html" class="signin" onsubmit="return validate()">
         <h3>Sign in to existing account</h3>
         <br>
         <div class="signin-cont">
             
             <label>Username</label><br>
-            <input type="text" placeholder="Username"><br>
+            <input type="text" placeholder="Username" id="use"><br>
             <label>Password</label><br>
-            <input type="password" placeholder="Password"><br><br><br>
+            <input type="password" placeholder="Password" id="pwd1"><br><br>
         </div>
         <div>
             <a href="Aboutus.html">
             <button id="signin-button">SUBMIT</button>
-            </a><br>
+            </a><br><br>
         </div> 
         <div class=signin-misc>
-            <a href="Aboutus.html">Move in</a>
-           <h3>Create an account</h3>
+            <!-- <a href="Aboutus.html">Move in</a> -->
+           <h3>No Account? Create new</h3>
            <a href="signup.html">Sign in</a>
         </div>
     </form>
-    
+   <script src="form.js"></script>  
+
+   <!-- <form action="signup.html">
+       <input type="Username" placeholder="username" required><br>
+       <input type="Password" placeholder="password" required><br>
+       <input type="submit" value="SUBMIT">
+   </form> -->
 </body>
-</html>
+</html> 

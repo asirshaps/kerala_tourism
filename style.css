@@ -32,13 +32,16 @@ body{
      padding: 14px;
  }
 .myborder{
-    float: left;
+    float: initial;
     padding-top: 4px;
-    margin-left: 4px;
+    /* margin-left: 4px; */
     margin-top: 4px;
     alt: norway;
     width: 50%;
     clear: left;
+    color: black;
+    ba
+    
 }
 * {
     box-sizing: border-box;
@@ -55,6 +58,8 @@ body{
     float: left;
     width: 33.33%;
     padding: 5px;
+    align-items: baseline;
+    color: black;
   }
   
   .container::after {

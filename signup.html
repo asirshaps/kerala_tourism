@@ -19,31 +19,41 @@
      </nav>
 
 
-    <form action="#" class="signup">
+    <form action="signin.html" class="signup" onsubmit= "return !!(phoneNumber() & validate() & Password());">
         <h3>Create account</h3>
         <br>
         <div class="signup-cont">
             <label>Firstname</label><br>
             <input type="text" placeholder="Firstname"><br>
+
             <label>Lastname</label><br>
             <input type="text" placeholder="Lastname"><br>
-            <label>Email id</label><br>
-            <input type="text" placeholder="Email id"><br>
-            <label>Password</label><br>
-            <input type="password" placeholder="Password"><br>
-            <label>Password</label><br>
-            <input type="password" placeholder=" Confirm"><br><br>
 
+            <label>Email id</label><br>
+            <input type="text" placeholder="Email id" id="email"><br>
+            <label for="error" id="error"></label><br>
+
+            <label>Contact No</label><br>
+            <input type="text" placeholder="contact-no"  id="phonenumber"><br>
+            <label for="error" id="errorphonenumber"></label><br> 
+
+            <label>Password</label><br>
+            <input type="password" placeholder="Password" id="pwd2"><br>
+            <label for="error" id="errorpasswordtype"></label><br>
+            <!-- <label>Password</label><br>
+            <input type="password" placeholder=" Confirm"><br> -->
+
+           
         </div>
         <div>
             <button id="signup-button">SIGN UP</button><br>
         </div>
-        <div class="signup-misc">
-            <a href="signin.html">Sign Up</a>
+        <!-- <div class="signup-misc">
+            <a href="signin.html">Sign Up</a> -->
               
                 
         </div>
     </form>
-
+    <script src="signupform.js"></script>
 </body>
 </html>
